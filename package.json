@@ -8,7 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006 -s public --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -19,6 +19,7 @@
     "@babel/core": "^7.12.3",
     "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-knobs": "^6.0.28",
     "@storybook/addon-links": "^6.0.28",
     "@storybook/addon-storyshots": "^6.0.28",
     "@storybook/vue": "^6.0.28",
